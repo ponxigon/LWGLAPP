@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="40dp"
+    android:background="#C6F6F8"
+    >
+
+    <ImageView
+        android:id="@+id/image_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/main"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layout_idpsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_main"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <RelativeLayout
+            android:id="@+id/ed_lay01"
+            android:background="@drawable/input_selector"
+            android:layout_width="250dp"
+            android:layout_height="50dp">
+            <EditText
+                android:id="@+id/et_number"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:hint="手机号"
+                android:inputType="number"
+                android:layout_centerHorizontal="true"
+                />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/ed_lay02"
+            android:layout_below="@id/ed_lay01"
+            android:background="@drawable/input_selector"
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp">
+        <EditText
+            android:id="@+id/et_psd"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            />
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_enter"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/ed_lay02"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="登录"
+            android:textSize="20sp"
+            android:background="@drawable/btn_selector"
+            />
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn_enter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="注册"
+            android:textSize="20sp"
+            android:background="@drawable/btn_selector"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/btn_login"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/qqq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_main"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/advertising"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/image_main"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            >
+            <RelativeLayout
+                android:id="@+id/service_staff_information"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/mg_01"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:id="@+id/service_btn_img1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/boos_home_01" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="员工信息"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/mg_01"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/service_vacate"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/mg_02"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/service_btn_img2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/boos_home_02" />
+            </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请假调休"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/mg_02"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/service_dispatch"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/mg_03"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true">
+                <ImageView
+                    android:id="@+id/service_btn_img3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/boos_home_03"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                        android:text="派遣管理"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/mg_03"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/service_company"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:id="@+id/mg_04"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:id="@+id/service_btn_img4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/boos_home_04"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="企业信息"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/mg_04"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/service_advance"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/mg_05"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:id="@+id/service_btn_img5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/worker_home_05" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="预支工资"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/mg_05"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/service_Hiring"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/mg_06"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:id="@+id/service_btn_img6"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/boos_home_06" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="工人录用"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/mg_06"
+                    />
+            </RelativeLayout>
+
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                android:layout_weight="1"
+                />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            >
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

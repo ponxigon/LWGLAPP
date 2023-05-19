@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="来自"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="名字"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_1"
+            android:layout_marginLeft="30dp"
+            android:textColor="#DC552B"
+            />
+        <LinearLayout
+            android:layout_width="5dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="的投诉信件"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_2"
+            android:layout_marginLeft="30dp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

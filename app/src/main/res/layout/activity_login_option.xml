@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include layout="@layout/commom_toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <Button
+            android:id="@+id/login_btn_worker"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:text="工作者注册"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_selector_02"
+            />
+        <Button
+            android:id="@+id/login_btn_boos"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:text="公司注册"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/login_btn_worker"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_selector_02"
+            />
+
+        <Button
+            android:id="@+id/login_btn_manage"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/login_btn_boos"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="主管单位注册"
+            android:background="@drawable/btn_selector_02"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

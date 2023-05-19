@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_worker_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+            android:text="大苏打"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_company_shang"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:text="范德萨"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/company_xia"
+            android:layout_width="wrap_content"
+            android:layout_height="25sp"
+            android:text="fsdfsd"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tv_company_shang"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <Button
+                android:id="@+id/btn_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="岗位管理"
+                android:textSize="15sp"
+
+                />
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
